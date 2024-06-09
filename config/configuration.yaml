@@ -1,0 +1,22 @@
+# https://www.home-assistant.io/integrations/default_config/
+default_config:
+
+# https://www.home-assistant.io/integrations/logger/
+logger:
+  default: info
+  logs:
+    custom_components.bdx_parkings: debug
+
+sensor:
+  - platform: bdx_parkings
+    bdx_data_key: !secret bdx_data_key
+    parking_ids: 'CUBPK100'
+    scan_interval: 3600
+  - platform: bdx_parkings
+    bdx_data_key: !secret bdx_data_key
+    parking_ids: 'CUBPK80'
+    scan_interval: 3600
+  - platform: bdx_parkings
+    bdx_data_key: !secret bdx_data_key
+    parking_ids: 'CUBPK44'
+    scan_interval: 3600
