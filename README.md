@@ -1,4 +1,4 @@
-#Home Assistant Integration - Bordeaux Métropole - Parking hors voirie
+# Home Assistant Integration - Bordeaux Métropole - Parking hors voirie
 
 Une clef est nécessaire pour interroger le webservice
 
@@ -25,4 +25,4 @@ sensor:
 ```
 
 
-[Exemple dataset](https://opendata.bordeaux-metropole.fr/explore/dataset/st_park_p/table/) pour trouves les ids des parkings
+[Exemple dataset](https://opendata.bordeaux-metropole.fr/explore/dataset/st_park_p/table/) pour trouver les ids des parkings
