@@ -83,4 +83,4 @@ class ParkingsEntity(Entity):
     @property
     def icon(self):
         """Return the icon to use in the frontend."""
-        return 'mdi:mdiParking'
+        return 'mdi:parking'
