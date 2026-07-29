@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurer un parking Bordeaux Métropole",
+        "data": {
+          "bdx_data_key": "Clé API Bordeaux Métropole",
+          "parking_ids": "Identifiant du parking (ex: CUBPK80)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossible de se connecter à l'API Bordeaux Métropole",
+      "invalid_api_key": "Clé API invalide ou non autorisée",
+      "parking_not_found": "Identifiant de parking introuvable",
+      "unknown": "Erreur inattendue"
+    },
+    "abort": {
+      "already_configured": "Ce parking est déjà configuré"
+    }
+  }
+}

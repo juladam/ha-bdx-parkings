@@ -1,13 +1,13 @@
 {
     "domain": "bdx_parkings",
     "name": "Bordeaux Parkings",
-    "documentation": "",
+    "documentation": "https://github.com/juladam/ha-bdx-parkings",
     "dependencies": [],
     "codeowners": [
-        "@asphalia"
+        "@juladam"
     ],
-    "requirements": [
-        "beautifulsoup4==4.7.1"
-    ],
-    "version": "1.0.0"
+    "requirements": [],
+    "config_flow": true,
+    "iot_class": "cloud_polling",
+    "version": "2.0.0"
 }
