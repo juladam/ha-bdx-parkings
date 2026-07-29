@@ -2,6 +2,7 @@
     "domain": "bdx_parkings",
     "name": "Bordeaux Parkings",
     "documentation": "https://github.com/juladam/ha-bdx-parkings",
+    "issue_tracker": "https://github.com/juladam/ha-bdx-parkings/issues",
     "dependencies": [],
     "codeowners": [
         "@juladam"
